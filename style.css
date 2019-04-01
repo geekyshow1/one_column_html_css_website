@@ -1,0 +1,78 @@
+/* Reset CSS Default */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* End Reset */
+
+/* Wrapper */
+.wrapper{
+  margin: 5px 100px;    /* top-bottom left-right*/
+}
+/* End Wrapper */
+
+/* Header */
+.header{
+    border-left: #F9F9F9 solid;
+    border-right: #F9F9F9 solid;
+    padding: 30px;
+    text-align: center;
+}
+.header > h1 > a {
+    text-decoration: none;
+    color: black;
+    font-size: 70px;
+}
+/* End Header */
+
+/* Main Navigation */
+.main-nav > ul {
+    background-color: #00A9E0;
+    list-style: none;    
+}
+.main-nav > ul > li {
+    display: inline-block;
+    padding: 10px;
+}
+.main-nav > ul > li > a {
+   text-decoration: none;
+   font-size: 20px;
+   color: #FFFFFF;
+}
+.main-nav > ul > li:hover {
+    background-color: #111111;
+ }
+ /* End Main Navigation */
+
+ /* Main Content */
+.content{
+    background-color: #F9F9F9;
+    padding: 10px 50px;     /* top-bottom left-right*/
+    min-height: 530px;      /* height: 500px; */
+    font-size: 20px;
+}
+
+.content > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:40%;
+    padding-bottom: 10px;
+}
+.content > p{
+    text-align: justify;
+}
+/* End Main Content */
+
+/* Footer */
+.footer{
+    background-color:grey;
+    text-align: center;
+    font-size: 20px;
+    padding:10px;
+    color: #FFFFFF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* End Footer */
+
+
